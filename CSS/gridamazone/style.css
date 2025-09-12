@@ -6,19 +6,39 @@
     display: grid;
     background-color: rgb(255, 255, 255);
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 400px 300px 200px 400px;
+    grid-template-rows: 100px 70px 300px 300px;
 }
 .header{
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: black;
     border: 1px solid white;
-    color: white;
+    color: aqua;
+}
+.subheader{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232f3e;
+    border: white;
+    color: aqua;
+    padding-top: 0%;
+}
+.container1grid{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
 }
 .container1{
-    background-color: azure;
+    background-color: aqua;
     border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -29,6 +49,8 @@
 
 .container11{
     background-color: aqua;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_furnishings_2._SY232_CB555629502_.jpg);
+    background-size: cover;
     height: 100px;
     width: 100px;
     margin-top: 10px;
@@ -36,6 +58,8 @@
     
 }
 .container12{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_storage_1._SY232_CB555629502_.jpg);
+    background-size: cover;
     background-color: deeppink;
     height: 100px;
     width: 100px;
@@ -44,6 +68,8 @@
 }
 .container13{
     background-color: grey;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_decor_1._SY232_CB555629502_.jpg);
+    background-size: cover;
     height: 100px;
     width: 100px;
     margin-left: 20px;
@@ -53,22 +79,173 @@
     background-color: aquamarine;
     height: 100px;
     width: 100px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_lighting_2_-_Copy._SY232_CB555629502_.jpg);
+    background-size: cover;
 
 
+}
+
+.container21{
+    background-color: aqua;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-372x232----B08RDL6H79._SY232_CB667322346_.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.container22{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B08345R1ZW---372x232._SY232_CB667322346_.jpg);
+    background-size: cover;
+    background-color: deeppink;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+
+}
+.container23{
+    background-color: grey;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B07G5J5FYP._SY232_CB667322346_.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+
+}
+.container24{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08CPQVLZT._SY232_CB667322346_.jpg);
+    background-size: cover;
+
+
+}
+
+.container2grid{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    
 }
 
 .container2{
-    background-color: azure;
+    background-color: aqua;
     border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
 
+}
+.container3grid{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
 }
 .container3{
-    background-color: azure;
+    background-color: aqua;
     border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
 
 }
-.container4{
-    background-color: azure;
-    border: 1px solid red;
+.container31{
+    background-color: aqua;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt._SY232_CB553870684_.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.container32{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Boult._SY232_CB553870684_.jpg);
+    background-size: cover;
+    background-color: deeppink;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
 
+}
+.container33{
+    background-color: grey;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Noise._SY232_CB553870684_.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+
+}
+.container34{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/MSO/PD3/PC_QuadCard_Zeb_1._SY232_CB570220221_.jpg);
+    background-size: cover;
+
+
+}
+.container4grid{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+.container4{
+    background-color: aqua;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+}
+
+.container41{
+    background-color: aqua;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/Raghu/JulyBAU/pc2_1._SY232_CB789348157_.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.container42{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/Raghu/JulyBAU/pc2_2._SY232_CB789348157_.jpg);
+    background-size: cover;
+    background-color: deeppink;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+
+}
+.container43{
+    background-color: grey;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/Raghu/JulyBAU/pc2_3._SY232_CB789348157_.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+
+}
+.container44{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/Raghu/JulyBAU/pc2_4._SY232_CB789348157_.jpg);
+    background-size: cover;
+
+
+}
+
+.footer{
+    background-color: #232f3e;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: white;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border: 1px solid white;
 }
