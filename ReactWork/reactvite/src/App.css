@@ -1,6 +1,7 @@
 .container{
   border: 2px solid red;
   background-color: aqua;
-  color: yellow;   
+  color: red;   
   padding-left: 600px;
+  
 }
