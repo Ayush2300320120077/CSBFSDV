@@ -14,9 +14,10 @@ function registration({regData}) {
       email,
       password
     }
-    regData(data);
-    console.log(data);
+    // regData(data);
+    // console.log(data);
     // alert("Hiii "+name + " Your age is "+age + email + password);
+    
   }
   return (
     <div>
